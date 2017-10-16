@@ -1,0 +1,10 @@
+endpoints:
+  enabled: false
+  info:
+    enabled: true
+    id: version
+
+info:
+  build:
+    version: ${version}
+
