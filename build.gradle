@@ -9,7 +9,6 @@ buildscript {
 
 apply plugin: 'groovy'
 apply plugin: 'idea'
-ext['tomcat.version'] = '7.0.63'
 
 sourceCompatibility = 1.8
 targetCompatibility = 1.8
@@ -17,5 +16,3 @@ targetCompatibility = 1.8
 repositories {
 	mavenCentral()
 }
-
-

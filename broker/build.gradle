@@ -64,8 +64,6 @@ dependencies {
     compile("com.swisscom.cloud.sb:client:${openServiceBrokerVersion}")
     compile("com.swisscom.cloud.sb:broker:${openServiceBrokerVersion}")
 
-    compile('javax.inject:javax.inject:1')
-
     testCompile("com.swisscom.cloud.sb:model:${openServiceBrokerVersion}:test")
     testCompile("com.swisscom.cloud.sb:client:${openServiceBrokerVersion}:test")
     testCompile("com.swisscom.cloud.sb:broker:${openServiceBrokerVersion}:test")
