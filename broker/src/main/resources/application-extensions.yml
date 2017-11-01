@@ -8,3 +8,7 @@ info:
   build:
     version: ${version}
 
+com.example.sb.config:
+  value1: 'customValue1'
+  value2: 1
+
