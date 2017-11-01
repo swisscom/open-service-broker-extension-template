@@ -3,14 +3,17 @@ package com.example.sb
 import com.swisscom.cloud.sb.broker.functional.BaseFunctionalSpec
 import com.swisscom.cloud.sb.broker.services.common.ServiceProviderLookup
 import org.springframework.boot.test.context.SpringBootTest
+import org.springframework.context.annotation.ComponentScan
 import org.springframework.test.context.ContextConfiguration
 
-@SpringBootTest(classes=[com.example.sb.ServiceProvider.class,com.swisscom.cloud.sb.broker.ServiceBroker.class])
+@SpringBootTest(classes=[ExampleServiceProvider.class,com.swisscom.cloud.sb.broker.ServiceBroker.class],
+        webEnvironment = SpringBootTest.WebEnvironment.DEFINED_PORT)
 @ContextConfiguration(classes = [App.class])
-class ServiceProviderFunctionalSpec extends BaseFunctionalSpec {
+@ComponentScan([ "com.swisscom.cloud.sb", "com.examle.sb"])
+class ExampleServiceProviderFunctionalSpec extends BaseFunctionalSpec {
 
     def setup(){
-        serviceLifeCycler.createServiceIfDoesNotExist("example", ServiceProviderLookup.findInternalName(ServiceProvider))
+        serviceLifeCycler.createServiceIfDoesNotExist("example", ServiceProviderLookup.findInternalName(ExampleServiceProvider))
     }
 
     def cleanupSpec(){

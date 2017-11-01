@@ -21,7 +21,7 @@ import static com.example.sb.MyServiceDetailKey.USERNAME
 
 @CompileStatic
 @Slf4j
-class ServiceProvider implements com.swisscom.cloud.sb.broker.services.common.ServiceProvider {
+class ExampleServiceProvider implements com.swisscom.cloud.sb.broker.services.common.ServiceProvider {
     @Autowired
     private ServiceConfig config
 
