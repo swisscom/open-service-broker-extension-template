@@ -21,7 +21,7 @@ repositories {
     }
 }
 
-ext.openServiceBrokerVersion = '2.6.4'
+ext.openServiceBrokerVersion = osbversion
 
 apply plugin: 'groovy'
 apply plugin: 'idea'

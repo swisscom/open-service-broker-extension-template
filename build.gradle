@@ -10,6 +10,9 @@ buildscript {
 apply plugin: 'groovy'
 apply plugin: 'idea'
 
+ext['tomcat.version'] = '7.0.63'
+ext['flyway.version'] = '4.0.3'
+
 sourceCompatibility = 1.8
 targetCompatibility = 1.8
 
