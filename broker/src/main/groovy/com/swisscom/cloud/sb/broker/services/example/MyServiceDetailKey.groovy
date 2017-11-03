@@ -1,4 +1,4 @@
-package com.example.sb
+package com.swisscom.cloud.sb.broker.services.example
 
 import com.swisscom.cloud.sb.broker.util.servicedetail.AbstractServiceDetailKey
 import com.swisscom.cloud.sb.broker.util.servicedetail.ServiceDetailType

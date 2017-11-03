@@ -1,4 +1,4 @@
-package com.example.sb
+package com.swisscom.cloud.sb.broker.services.example
 
 import org.springframework.context.annotation.ComponentScan
 import org.springframework.context.annotation.Configuration

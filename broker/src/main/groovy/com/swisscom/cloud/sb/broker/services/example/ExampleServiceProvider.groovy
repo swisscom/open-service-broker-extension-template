@@ -1,4 +1,4 @@
-package com.example.sb
+package com.swisscom.cloud.sb.broker.services.example
 
 import com.swisscom.cloud.sb.broker.binding.BindRequest
 import com.swisscom.cloud.sb.broker.binding.BindResponse
@@ -16,9 +16,9 @@ import org.springframework.stereotype.Component
 
 import javax.annotation.PostConstruct
 
-import static com.example.sb.MyServiceDetailKey.HOST
-import static com.example.sb.MyServiceDetailKey.PASSWORD
-import static com.example.sb.MyServiceDetailKey.USERNAME
+import static MyServiceDetailKey.HOST
+import static MyServiceDetailKey.PASSWORD
+import static MyServiceDetailKey.USERNAME
 
 @CompileStatic
 @Slf4j

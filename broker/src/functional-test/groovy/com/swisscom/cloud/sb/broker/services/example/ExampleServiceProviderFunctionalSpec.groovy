@@ -1,15 +1,8 @@
-package com.example.sb
+package com.swisscom.cloud.sb.broker.services.example
 
 import com.swisscom.cloud.sb.broker.functional.BaseFunctionalSpec
 import com.swisscom.cloud.sb.broker.services.common.ServiceProviderLookup
-import org.springframework.boot.test.context.SpringBootTest
-import org.springframework.context.annotation.ComponentScan
-import org.springframework.test.context.ContextConfiguration
 
-@SpringBootTest(classes=[ExampleServiceProvider.class,com.swisscom.cloud.sb.broker.ServiceBroker.class],
-        webEnvironment = SpringBootTest.WebEnvironment.DEFINED_PORT)
-@ContextConfiguration(classes = [App.class])
-@ComponentScan([ "com.swisscom.cloud.sb", "com.examle.sb"])
 class ExampleServiceProviderFunctionalSpec extends BaseFunctionalSpec {
 
     def setup(){

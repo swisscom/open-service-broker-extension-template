@@ -1,4 +1,4 @@
-package com.example.sb
+package com.swisscom.cloud.sb.broker.services.example
 
 import groovy.transform.CompileStatic
 import org.springframework.boot.context.properties.ConfigurationProperties

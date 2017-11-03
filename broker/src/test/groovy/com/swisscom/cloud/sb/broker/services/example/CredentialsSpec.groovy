@@ -1,4 +1,4 @@
-package com.example.sb
+package com.swisscom.cloud.sb.broker.services.example
 
 import org.skyscreamer.jsonassert.JSONAssert
 import spock.lang.Specification
