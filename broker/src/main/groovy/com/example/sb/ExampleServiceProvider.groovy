@@ -12,6 +12,7 @@ import com.swisscom.cloud.sb.broker.util.servicedetail.ServiceDetailsHelper
 import groovy.transform.CompileStatic
 import groovy.util.logging.Slf4j
 import org.springframework.beans.factory.annotation.Autowired
+import org.springframework.stereotype.Component
 
 import javax.annotation.PostConstruct
 
@@ -21,6 +22,7 @@ import static com.example.sb.MyServiceDetailKey.USERNAME
 
 @CompileStatic
 @Slf4j
+@Component
 class ExampleServiceProvider implements com.swisscom.cloud.sb.broker.services.common.ServiceProvider {
     @Autowired
     private ServiceConfig config
